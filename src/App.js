@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
 import Main from './view/Main';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
+
+//import logo from './logo.svg';
+// import './App.css';
+//import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 
 class App extends Component {
   render() {
     return (
       <Main/>
+
+      //<Main/>
       // <div className="App">
       //   <header className="App-header">
       //     <img src={logo} className="App-logo" alt="logo" />
