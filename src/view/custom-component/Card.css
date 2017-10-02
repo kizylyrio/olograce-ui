@@ -1,0 +1,33 @@
+.Card{
+    background-color: #fff;
+    border-radius: .125rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px 1px;
+    margin: 32px;
+}
+
+.Card-header{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgba(0,0,0,.8);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+    border-bottom-style: solid; 
+    border-bottom-width: 1px;
+    border-color: #eee;
+    color: rgba(0,0,0,.8);
+    line-height: 1;
+    font-weight: 600;
+    font-family: "helvetica";   
+    border-radius: .125rem;
+    border-bottom-right-radius: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.Card-content{
+    color: rgba(0,0,0,.8);
+    font-size: 1.100rem;
+    line-height: 1.5;
+    padding: 1rem;
+}
