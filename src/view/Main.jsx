@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './Menu'
 import Card from './Card'
-// import './Menu.css';
+import Session from './Session'
 
 class Main extends Component {
     render() {
@@ -9,6 +9,7 @@ class Main extends Component {
         <div>
           <Menu/>
           <Card/>
+          <Session />
         </div>
       );
     }
