@@ -18,10 +18,8 @@ class Menu extends Component {
               <NavDropdown eventKey={3} title="Meu PPV" id="basic-nav-dropdown">
                 <MenuItem eventKey={3.1}>Cadastrar</MenuItem>
                 <MenuItem eventKey={3.2}>Consultar</MenuItem>
-                <MenuItem eventKey={3.3}>Exportar</MenuItem>
-                <MenuItem divider />
-                <MenuItem eventKey={3.3}>Logout</MenuItem>
               </NavDropdown>
+              <NavItem />
               <NavItem eventKey={4} href="#">Logout</NavItem>
             </Nav>
         </Navbar.Collapse>
