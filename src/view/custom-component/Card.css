@@ -6,8 +6,8 @@
 }
 
 .Card-header{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: rgba(0,0,0,.8);
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -21,7 +21,6 @@
     font-family: "helvetica";   
     border-radius: .125rem;
     border-bottom-right-radius: 0;
-    text-transform: capitalize;
     box-sizing: border-box;
 }
 
@@ -29,5 +28,5 @@
     color: rgba(0,0,0,.8);
     font-size: 1.100rem;
     line-height: 1.5;
-    padding: 1.5rem;
+    padding: 2rem;
 }

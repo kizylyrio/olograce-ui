@@ -6,11 +6,11 @@ import Card from './custom-component/Card'
 class NewTeamForm extends Component {
     render() {
       return (
-            <Card title="Cadastro de Equipe">
+            <Session title="Cadastre sua Equipe">
                 <form>
                     <FormGroup controlId="email">
                         <ControlLabel>Email</ControlLabel>
-                        <FormControl type="text"/>
+                        <FormControl type="text" placeholder="meu@email.com"/>
                     </FormGroup>
                     <FormGroup controlId="regional">
                         <ControlLabel>Regional</ControlLabel>
@@ -21,6 +21,7 @@ class NewTeamForm extends Component {
                             <option value="4">Regional 4</option>
                             <option value="5">Regional 5</option>
                             <option value="6">Regional 6</option>
+                            <option value="6">Regional 7</option>
                         </FormControl>
                     </FormGroup>
                     <FormGroup controlId="sector">
@@ -29,23 +30,23 @@ class NewTeamForm extends Component {
                             <option value="outro">Outro...</option>
                         </FormControl>
                     </FormGroup>
-                    <FormGroup controlId="new-sector">
+                    {/* <FormGroup controlId="new-sector">
                         <ControlLabel>Insira aqui o nome do seu Setor</ControlLabel>
                         <FormControl type="text" placeholder="Aparecida"/>
-                    </FormGroup>
+                    </FormGroup> */}
                     <FormGroup controlId="team">
                         <ControlLabel>Equipe</ControlLabel>
                         <FormControl componentClass="select" placeholder="select">
                             <option value="outra">Outra...</option>
                         </FormControl>
                     </FormGroup>
-                    <FormGroup controlId="new-team">
+                    {/* <FormGroup controlId="new-team">
                     <   ControlLabel>Insira aqui o nome da sua equipe</ControlLabel>
                         <FormControl type="text" placeholder="Fátima"/>
-                    </FormGroup>
+                    </FormGroup> */}
                     <Button type="submit" bsSize="small" bsStyle="success">Gravar</Button>
                 </form>
-            </Card>
+            </Session>
       );
     }
   }
