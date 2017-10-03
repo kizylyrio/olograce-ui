@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import { FormGroup ,  ControlLabel, FormControl, Button } from 'react-bootstrap';
 import Session from './custom-component/Session'
+import Card from './custom-component/Card'
 
 class NewTeamForm extends Component {
     render() {
       return (
-        <div>
-            <div className="Session">
-                <div className="Session-title">
-                    Cadastro de Equipe
-                </div>
-                <div className="Session-content">
+            <Card title="Cadastro de Equipe">
                 <form>
                     <FormGroup controlId="email">
                         <ControlLabel>Email</ControlLabel>
@@ -49,9 +45,7 @@ class NewTeamForm extends Component {
                     </FormGroup>
                     <Button type="submit" bsSize="small" bsStyle="success">Gravar</Button>
                 </form>
-                </div>
-            </div>          
-        </div>
+            </Card>
       );
     }
   }

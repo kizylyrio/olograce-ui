@@ -6,9 +6,11 @@ class Card extends Component {
       return (
         <div className="Card">
             <div className="Card-header">
-                Title
+              {this.props.title}
             </div>
-            <div className="Card-content">Text</div>
+            <div className="Card-content">
+              {this.props.children}
+            </div>
         </div>
       );
     }
