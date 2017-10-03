@@ -13,13 +13,15 @@ class Menu extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1} href="#">Perfil</NavItem>
+              <NavItem eventKey={2} href="#">Meu PPV</NavItem>
               <NavItem eventKey={2} href="#">Minhas Orações</NavItem>
-              <NavDropdown eventKey={3} title="Meu PPV" id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1}>Cadastrar</MenuItem>
-                <MenuItem eventKey={3.2}>Consultar</MenuItem>
-              </NavDropdown>
               <NavItem />
+              
+              <NavDropdown eventKey={3} title="Cadastro" id="basic-nav-dropdown">
+                <MenuItem eventKey={3.1}>Novo Membro</MenuItem>
+                <MenuItem eventKey={3.2}>Membro por Equipe</MenuItem>
+              </NavDropdown>
+              <NavItem eventKey={1} href="#">Minha Conta</NavItem>
               <NavItem eventKey={4} href="#">Logout</NavItem>
             </Nav>
         </Navbar.Collapse>

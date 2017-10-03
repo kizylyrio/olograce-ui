@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Menu from './Menu'
-import RegisterSession from './RegisterSession'
+import NewMemberForm from './NewMemberForm'
 
 class Main extends Component {
     render() {
       return (
         <div>
           <Menu/>
-          <RegisterSession/>
+          <NewMemberForm/>
         </div>
       );
     }
