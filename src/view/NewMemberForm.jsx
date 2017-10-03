@@ -14,27 +14,21 @@ class NewMemberForm extends Component {
                 <div className="Session-content">
 
                 <form>
-                <FormGroup>
-                  <ControlLabel>Login</ControlLabel>
-                  <FormControl type="text"/>
+                  <FormGroup controlId="username">
+                    <ControlLabel>Login</ControlLabel>
+                    <FormControl type="text"/>
+                  </FormGroup>
+                  <FormGroup controlId="team">
+                  <ControlLabel>Equipe</ControlLabel>
+                  <FormControl disabled componentClass="select" placeholder="select">
+                    <option value="gracas">Graças</option>
+                  </FormControl>
                 </FormGroup>
-                <FormGroup controlId="formControlsSelect">
-                <ControlLabel>Equipe</ControlLabel>
-                <FormControl disabled componentClass="select" placeholder="select">
-                  <option value="gracas">Graças</option>
-                </FormControl>
-               </FormGroup>
-                <Button type="submit" bsSize="small" bsStyle="success">Gravar</Button>
-              </form>
-
-
-
+                  <Button type="submit" bsSize="small" bsStyle="success">Gravar</Button>
+                </form>
                 </div>
             </div>          
         </div>
-
-        
-
       );
     }
   }
