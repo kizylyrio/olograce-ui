@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 
-class Menu extends Component {
+export default class OldMenu extends Component {
     render() {
       return (
         <Navbar inverse collapseOnSelect>
@@ -28,5 +28,3 @@ class Menu extends Component {
       );
     }
   }
-  
-  export default Menu;

@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import Main from './view/Main';
+import TeamRegister from './view/TeamRegister'
 
 class App extends Component {
-  render() {
-    return (
-      <Main/>
-    );
+    render() {
+      return (
+        <div>
+          {/* <Menu/>
+          <NewMemberForm/> */}
+          <TeamRegister/>
+        </div>
+      );
+    }
   }
-}
-
-export default App;
+  
+  export default App;
